@@ -27,3 +27,10 @@ const App = ()=>{
     )
 }
 export default App
+
+
+/* este código establece un sistema de enrutamiento básico para una aplicación de React
+utilizando react-router-dom. Define tres rutas principales ('/', '/year', '/artist') y 
+sus respectivos componentes asociados 
+(Album, Genre, Price). La barra de navegación (Navbar) se encuentra fuera del área de 
+enrutamiento y se renderiza en todas las páginas.*/

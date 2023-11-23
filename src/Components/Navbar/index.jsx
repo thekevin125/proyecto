@@ -41,3 +41,8 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+/*este componente Navbar proporciona una barra de navegación con enlaces que utilizan NavLink para la navegación
+ entre diferentes secciones de la aplicación. Los estilos de Tailwind CSS se aplican para darle formato a la barra de navegación, y se 
+utiliza una clase especial (activeStyle) para resaltar el enlace activo.
+ La imagen del ícono se muestra en el extremo derecho de la barra de navegación.*/

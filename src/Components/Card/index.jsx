@@ -26,3 +26,9 @@ const Card = ({ data, onIncrement }) => {
 };
 
 export default Card;
+
+
+/* , el componente Card muestra información sobre algún objeto
+  (probablemente relacionado con ventas) 
+y proporciona la capacidad de ejecutar una 
+función de incremento cuando se hace clic en un botón específico. */
