@@ -1,0 +1,37 @@
+.card-container {
+    /* Otros estilos... */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.card-container.hovered {
+    transform: scale(1.05);
+    /* Efecto de escala al pasar el ratón sobre la tarjeta */
+    background-color: #f0f0f0;
+    /* Cambio de color al pasar el ratón sobre la tarjeta */
+}
+
+.card-image-container {
+    position: relative;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-image-container:hover .card-image {
+    transform: scale(1.1);
+    /* Efecto de escala al pasar el ratón sobre la imagen */
+}
+
+.add-to-cart {
+    /* Otros estilos... */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart:hover {
+    background-color: #4caf50;
+    /* Cambio de color al pasar el ratón sobre el botón */
+}

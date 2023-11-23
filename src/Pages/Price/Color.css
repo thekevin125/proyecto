@@ -1,0 +1,22 @@
+/* Card.css */
+
+.custom-card {
+     /* Estilos para la tarjeta */
+     transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+     /* Efecto hover */
+     transform: scale(1.05);
+}
+
+.hover-overlay {
+     /* Estilos para el overlay (puedes ajustar según tus necesidades) */
+     opacity: 0;
+     transition: opacity 0.3s ease-in-out;
+}
+
+.custom-card:hover .hover-overlay {
+     /* Mostrar overlay al hacer hover */
+     opacity: 1;
+}
